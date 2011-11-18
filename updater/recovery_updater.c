@@ -26,8 +26,9 @@
 #include "firmware.h"
 #include "mincrypt/sha.h"
 #include "minzip/Zip.h"
-#include "mtdutils/mounts.h"
+//#include "mtdutils/mounts.h"
 #include "updater/updater.h"
+#include "mounts.h" //not in the repo yet so use local for now
 
 Value* UpdateFn(const char* name, State* state, int argc, Expr* argv[]) {
     if (argc != 7) {
