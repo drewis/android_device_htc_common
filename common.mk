@@ -18,7 +18,7 @@
 # HTC devices
 
 # Sets an HTC-specific device-agnostic overlay
-DEVICE_PACKAGE_OVERLAYS := device/htc/common/overlay
+#DEVICE_PACKAGE_OVERLAYS := device/htc/common/overlay
 
 # Sets copy files for all HTC-specific device
 PRODUCT_COPY_FILES += device/htc/common/ecclist_for_mcc.conf:system/etc/ecclist_for_mcc.conf
